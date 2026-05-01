@@ -3,9 +3,9 @@ tagline: A Framework for AI Adoption
 description: An operating manual for organizational leaders starting from zero.
 author: Gabe Gloege
 
-# GitHub Pages project subpath: gabegloege.github.io/trellis
+# GitHub Pages project subpath: ggloege.github.io/trellis
 baseurl: /trellis
-url: https://gabegloege.github.io
+url: https://ggloege.github.io
 
 # Build
 markdown: kramdown
