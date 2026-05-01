@@ -1,6 +1,6 @@
 ---
 title: The Premise
-subtitle: Why "AI Strategy" Is the Wrong Frame
+subtitle: 'Why "AI Strategy" Is the Wrong Frame'
 chapter: 1
 order: 1
 part: I
