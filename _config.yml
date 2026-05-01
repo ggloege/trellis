@@ -1,0 +1,46 @@
+title: Trellis
+tagline: A Framework for AI Adoption
+description: An operating manual for organizational leaders starting from zero.
+author: Gabe Gloege
+
+# GitHub Pages project subpath: gabegloege.github.io/trellis
+baseurl: /trellis
+url: https://gabegloege.github.io
+
+# Build
+markdown: kramdown
+kramdown:
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Collections
+collections:
+  chapters:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: chapters
+    values:
+      layout: chapter
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Plugins (compatible with github-pages gem)
+plugins:
+  - jekyll-seo-tag
+
+# Excludes
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md
+  - .DS_Store

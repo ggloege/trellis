@@ -1,0 +1,25 @@
+{%- comment -%}
+  Table of contents grouped by part. Reads from site.data.parts for
+  the part order/titles, then iterates chapters that match each part.
+{%- endcomment -%}
+
+{%- assign chapters = site.chapters | sort: 'order' -%}
+
+<section class="toc" id="contents" aria-label="Table of contents">
+  {% for part in site.data.parts %}
+    {% assign part_chapters = chapters | where: 'part', part.id %}
+    {% if part_chapters.size > 0 %}
+      <div class="toc__part">
+        <h2 class="toc__part-title">Part {{ part.id }} — {{ part.title }}</h2>
+        <ol class="toc__list">
+          {% for c in part_chapters %}
+            <li class="toc__item">
+              <span class="toc__num">{{ c.chapter }}</span>
+              <a class="toc__link" href="{{ c.url | relative_url }}">{{ c.title }}</a>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>

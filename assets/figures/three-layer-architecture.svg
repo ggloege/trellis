@@ -1,0 +1,44 @@
+<svg viewBox="0 0 900 580" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Trellis three-layer architecture: Strategic Loop, Project Layer, and Global Policy Layer, with arrows showing priorities and evidence flowing between Strategy and Projects, and patterns and capabilities flowing between Projects and Policy.">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 9 5 L 0 10" fill="none" stroke="#4A6741" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="580" fill="#FAFAF8"/>
+
+  <!-- LAYER 1: Strategic Loop -->
+  <rect x="60" y="30" width="780" height="140" rx="6" fill="#F5F1E8" stroke="#A89B7C" stroke-width="1.5"/>
+  <text x="90" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="600" letter-spacing="3" fill="#8B7B5F">STRATEGIC LOOP</text>
+  <text x="810" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="600" letter-spacing="3" fill="#8B7B5F" text-anchor="end">STRATEGY FIRST</text>
+  <text x="90" y="110" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="600" fill="#2A2520">The Future Org</text>
+  <text x="90" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" fill="#6B5D4F">Abstract mental model — what the organization is becoming</text>
+
+  <!-- Arrows between Layer 1 and Layer 2 -->
+  <line x1="200" y1="180" x2="200" y2="218" stroke="#4A6741" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="215" y="204" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" fill="#4A6741">priorities</text>
+
+  <line x1="700" y1="218" x2="700" y2="180" stroke="#4A6741" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="640" y="204" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" fill="#4A6741" text-anchor="end">evidence</text>
+
+  <!-- LAYER 2: Project Layer -->
+  <rect x="60" y="220" width="780" height="140" rx="6" fill="#C9B89C" stroke="#8B7B5F" stroke-width="1.5"/>
+  <text x="90" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="600" letter-spacing="3" fill="#5A4A2F">PROJECT LAYER</text>
+  <text x="810" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="600" letter-spacing="3" fill="#5A4A2F" text-anchor="end">HYPOTHESES, THEN HARDENING</text>
+  <text x="90" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="600" fill="#2A2520">The Becoming Org</text>
+  <text x="90" y="332" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" fill="#5A4A2F">Active site of experimentation — where future meets present</text>
+
+  <!-- Arrows between Layer 2 and Layer 3 -->
+  <line x1="200" y1="370" x2="200" y2="408" stroke="#4A6741" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="215" y="394" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" fill="#4A6741">patterns</text>
+
+  <line x1="700" y1="408" x2="700" y2="370" stroke="#4A6741" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="640" y="394" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" fill="#4A6741" text-anchor="end">capabilities</text>
+
+  <!-- LAYER 3: Global Policy Layer -->
+  <rect x="60" y="410" width="780" height="140" rx="6" fill="#4A4538" stroke="#2A2520" stroke-width="1.5"/>
+  <text x="90" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="600" letter-spacing="3" fill="#C9B89C">GLOBAL POLICY LAYER</text>
+  <text x="810" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="600" letter-spacing="3" fill="#C9B89C" text-anchor="end">PATTERNS BECOME POLICY</text>
+  <text x="90" y="490" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="600" fill="#F5F1E8">The Current Org</text>
+  <text x="90" y="522" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" fill="#D4C8B0">Concrete existence — what runs the business each day</text>
+</svg>

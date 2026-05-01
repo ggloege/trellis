@@ -1,0 +1,57 @@
+---
+layout: default
+---
+{%- assign chapters = site.chapters | sort: 'order' -%}
+
+{%- comment -%} First pass: find current chapter's index. {%- endcomment -%}
+{%- assign current_index = -1 -%}
+{%- for c in chapters -%}
+  {%- if c.url == page.url -%}
+    {%- assign current_index = forloop.index0 -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign prev_index = current_index | minus: 1 -%}
+{%- assign next_index = current_index | plus: 1 -%}
+
+{%- comment -%} Second pass: capture prev/next chapter objects. {%- endcomment -%}
+{%- for c in chapters -%}
+  {%- if forloop.index0 == prev_index -%}{%- assign prev = c -%}{%- endif -%}
+  {%- if forloop.index0 == next_index -%}{%- assign next = c -%}{%- endif -%}
+{%- endfor -%}
+
+<article class="chapter measure">
+  <header class="chapter__header">
+    <p class="chapter__number">Chapter {{ page.chapter }}</p>
+    <h1 class="chapter__title">{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}</h1>
+    {% if page.part_title %}
+      <p class="chapter__part">Part {{ page.part }} — {{ page.part_title }}</p>
+    {% endif %}
+  </header>
+
+  <div class="chapter__body">
+    {{ content }}
+  </div>
+
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    {% if prev %}
+      <a class="chapter-nav__item chapter-nav__item--prev" href="{{ prev.url | relative_url }}">
+        <span class="chapter-nav__label">← Previous</span>
+        <span class="chapter-nav__title">{{ prev.title }}</span>
+      </a>
+    {% else %}
+      <a class="chapter-nav__item chapter-nav__item--prev" href="{{ '/' | relative_url }}">
+        <span class="chapter-nav__label">← Back</span>
+        <span class="chapter-nav__title">Contents</span>
+      </a>
+    {% endif %}
+
+    {% if next %}
+      <a class="chapter-nav__item chapter-nav__item--next" href="{{ next.url | relative_url }}">
+        <span class="chapter-nav__label">Next →</span>
+        <span class="chapter-nav__title">{{ next.title }}</span>
+      </a>
+    {% endif %}
+  </nav>
+</article>

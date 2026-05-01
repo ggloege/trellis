@@ -1,0 +1,68 @@
+<svg viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Trellis Project Canvas: a one-page working document with three sections — Readiness, Roadmap, and Risk — anchored to the Strategic Loop above. Readiness covers people, data, culture, governance, and incentives. Roadmap covers pilot phase, graduation criteria, and KPIs. Risk covers what could go wrong, whose data is involved, ethical stance, and autonomy and oversight.">
+  <rect width="900" height="540" fill="#FAFAF8"/>
+
+  <!-- Outer canvas frame -->
+  <rect x="60" y="30" width="780" height="450" rx="6" fill="#FFFFFF" stroke="#5A4A2F" stroke-width="1.5"/>
+
+  <!-- Title band -->
+  <rect x="60" y="30" width="780" height="60" fill="#F5F1E8" stroke="#5A4A2F" stroke-width="1.5"/>
+  <text x="450" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="600" letter-spacing="4" fill="#2A2520" text-anchor="middle">TRELLIS PROJECT CANVAS</text>
+  <text x="450" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F" text-anchor="middle">Strategic Anchor: which Strategic Loop priority this project serves</text>
+
+  <!-- Section header band -->
+  <rect x="60" y="90" width="780" height="40" fill="#C9B89C" stroke="#5A4A2F" stroke-width="1"/>
+  <text x="190" y="116" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="600" letter-spacing="3" fill="#2A2520" text-anchor="middle">READINESS</text>
+  <text x="450" y="116" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="600" letter-spacing="3" fill="#2A2520" text-anchor="middle">ROADMAP</text>
+  <text x="710" y="116" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="600" letter-spacing="3" fill="#2A2520" text-anchor="middle">RISK</text>
+
+  <!-- Section subtitles -->
+  <text x="190" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#6B5D4F" text-anchor="middle">Is the organization ready?</text>
+  <text x="450" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#6B5D4F" text-anchor="middle">What is the plan?</text>
+  <text x="710" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#6B5D4F" text-anchor="middle">What could go wrong?</text>
+
+  <!-- Column dividers -->
+  <line x1="320" y1="130" x2="320" y2="480" stroke="#A89B7C" stroke-width="1"/>
+  <line x1="580" y1="130" x2="580" y2="480" stroke="#A89B7C" stroke-width="1"/>
+
+  <!-- READINESS items -->
+  <text x="80" y="195" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">People</text>
+  <text x="80" y="213" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">skills, trust, capacity</text>
+
+  <text x="80" y="253" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">Data</text>
+  <text x="80" y="271" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">availability, quality, access</text>
+
+  <text x="80" y="311" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">Culture</text>
+  <text x="80" y="329" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">alignment with stated principles</text>
+
+  <text x="80" y="369" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">Governance</text>
+  <text x="80" y="387" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">decision speed</text>
+
+  <text x="80" y="427" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">Incentives</text>
+  <text x="80" y="445" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">is anyone rewarded for this succeeding</text>
+
+  <!-- ROADMAP items -->
+  <text x="340" y="195" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">Pilot phase</text>
+  <text x="340" y="213" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">scope, duration, scale</text>
+
+  <text x="340" y="253" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">Graduation criteria</text>
+  <text x="340" y="271" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">expand, continue, or shut down</text>
+
+  <text x="340" y="311" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">KPIs</text>
+  <text x="340" y="329" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">experiential early, operational later</text>
+
+  <!-- RISK items -->
+  <text x="600" y="195" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">What could go wrong</text>
+  <text x="600" y="213" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">failure modes, second-order effects</text>
+
+  <text x="600" y="253" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">Whose data is involved</text>
+  <text x="600" y="271" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">consent, scope, sensitivity</text>
+
+  <text x="600" y="311" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">Ethical stance</text>
+  <text x="600" y="329" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">if this works too well — at scale, at speed</text>
+
+  <text x="600" y="369" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600" fill="#2A2520">Autonomy &amp; oversight</text>
+  <text x="600" y="387" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-style="italic" fill="#6B5D4F">who is watching if no human is in the loop</text>
+
+  <!-- Footer note (outside frame) -->
+  <text x="450" y="515" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-style="italic" fill="#6B5D4F" text-anchor="middle">Lightly sketched at kickoff. Hardens as the project progresses.</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg class="brand__mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--accent);">
+  <!-- Fibonacci-ish spiral, single stroke, with seed dot -->
+  <path d="M21 12 C 21 16.97 16.97 21 12 21 C 7.03 21 3 16.97 3 12 C 3 8.13 6.13 5 10 5 C 13.31 5 16 7.69 16 11 C 16 13.76 13.76 16 11 16 C 8.79 16 7 14.21 7 12 C 7 10.34 8.34 9 10 9 C 11.32 9 12.4 10.07 12.4 11.4"/>
+  <circle cx="11.5" cy="11.6" r="0.7" fill="currentColor" stroke="none"/>
+</svg>

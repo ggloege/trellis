@@ -1,0 +1,18 @@
+# Order and titles for the five parts of Trellis.
+# The TOC iterates this list and pulls chapters whose front-matter
+# `part` field matches `id`. Renumber chapters by editing each chapter
+# file's `chapter:` and `order:` fields — this file stays the same
+# unless the part structure itself changes.
+
+- id: I
+  title: Foundations
+- id: II
+  title: The Strategic Loop
+- id: III
+  title: The Project Layer
+- id: IV
+  title: The Global Policy Layer
+- id: V
+  title: Putting It Into Practice
+- id: Appendix
+  title: Appendix
