@@ -284,7 +284,8 @@ hr {
 
 /* ----- Home / cover ----- */
 .cover {
-  padding: var(--space-9) 0 var(--space-8);
+  padding-top: var(--space-9);
+  padding-bottom: var(--space-8);
 }
 .cover__title {
   font-size: var(--size-display);
@@ -304,7 +305,8 @@ hr {
 
 /* ----- Chapter page ----- */
 .chapter {
-  padding: var(--space-8) 0 var(--space-7);
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-7);
 }
 
 .chapter__header {
@@ -542,10 +544,15 @@ hr {
     --size-display: 40px;
     --size-h1: 30px;
     --size-h2: 24px;
-    --size-body: 16px;
+    --size-body: 15px;
   }
-  .cover { padding: var(--space-7) 0 var(--space-6); }
-  .chapter { padding: var(--space-7) 0 var(--space-6); }
+  .cover { padding-top: var(--space-7); padding-bottom: var(--space-6); }
+  .chapter { padding-top: var(--space-7); padding-bottom: var(--space-6); }
+  .measure,
+  .measure-wide {
+    padding-left: var(--space-5);
+    padding-right: var(--space-5);
+  }
   .chapter-nav {
     grid-template-columns: 1fr;
   }

@@ -177,6 +177,8 @@ Things that are intentionally parked, in priority order:
 - `index.md` — landing page content (Trellis overview + TOC include).
 - `about.md` — about page.
 - `.github/workflows/jekyll.yml` — Pages deploy workflow.
+- `.claude/launch.json` — config for Claude Code's preview MCP to spin up
+  the local Jekyll server during sessions.
 
 ---
 
@@ -203,6 +205,9 @@ cd "Documents/Code Projects/Trellis Site"
 bundle install                              # only needed once
 bundle exec jekyll serve --baseurl ""       # http://127.0.0.1:4000/
 ```
+
+For Claude Code sessions, `.claude/launch.json` is already wired up so the
+preview MCP can start the server automatically.
 
 Ruby 4.0+ via Homebrew is on PATH (added to `~/.zshrc`). If `bundle`
 isn't found, run:
